@@ -2,21 +2,21 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          React Starter Project
-        </span>{" "}
-        with Vite, Tailwind CSS, and Flowbit
+    <div className="">
+      <h1 className="mb-20 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <div className="mb-3">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+            Bitech
+          </span>
+        </div>{" "}
+        <div> PROXIMAMENTE</div>
       </h1>
-      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-        A React starter project built with Vite, configured with Tailwind CSS
-        for utility-first styling, and integrated with Flowbite for pre-built
-        components. This template provides a fast and modern development
-        environment to kickstart your next React project, offering a solid
-        foundation for building responsive and accessible web applications.
-      </p>
-    </>
+      <div>
+        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+        BITECH es tu solución completa para la creación de páginas web personalizadas. Nos especializamos en diseñar y desarrollar sitios web modernos, rápidos y totalmente optimizados para todos los dispositivos. Impulsa las ventas de tu negocio con una presencia en línea profesional y atractiva que conecte con tus clientes y potencie tu marca. Ya sea que necesites una tienda virtual, un portafolio o una plataforma empresarial, estamos aquí para transformar tu visión en realidad. ¡Mantente atento para el lanzamiento y lleva tu proyecto digital al siguiente nivel!"
+        </p>
+      </div>
+    </div>
   );
 }
 
