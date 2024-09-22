@@ -9,7 +9,7 @@ function App() {
             Bitech
           </span>
         </div>
-        <div className="pb-10 md:pb-10 lg:pb-20 xl:pb-5"> PROXIMAMENTE</div>
+        <div className="pb-5 md:pb-20 lg:pb-20 xl:pb-20"> PROXIMAMENTE</div>
       </h1>
       <div className="w-full text-center">
         <p className="text-sm md:text-base lg:text-lg xl:text-xl font-normal text-gray-500 dark:text-gray-400">
