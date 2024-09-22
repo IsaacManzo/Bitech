@@ -2,16 +2,16 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="">
-      <h1 className="mb-20 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <div className="mb-3">
+    <div className="flex flex-col justify-start items-center h-screen p-0">
+      <h1 className="mb-2 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl text-center">
+        <div className="mb-2">
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             Bitech
           </span>
-        </div>{" "}
-        <div> PROXIMAMENTE</div>
+        </div>
+        <div className="pb-10 md:pb-10 lg:pb-20 xl:pb-5"> PROXIMAMENTE</div>
       </h1>
-      <div className="w-full">
+      <div className="w-full text-center">
         <p className="text-sm md:text-base lg:text-lg xl:text-xl font-normal text-gray-500 dark:text-gray-400">
           Nos especializamos en diseñar y desarrollar sitios web modernos,
           rápidos y totalmente optimizados para todos los dispositivos. Impulsa
@@ -19,7 +19,7 @@ function App() {
           atractiva que conecte con tus clientes y potencie tu marca. Ya sea que
           necesites una tienda virtual, un portafolio o una plataforma
           empresarial, estamos aquí para transformar tu visión en realidad.
-          ¡llevá tu proyecto digital al siguiente nivel!
+          ¡Llevá tu proyecto digital al siguiente nivel!
         </p>
       </div>
     </div>
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+
