@@ -11,7 +11,7 @@ function App() {
         </div>{" "}
         <div> PROXIMAMENTE</div>
       </h1>
-      <div>
+      <div className="w-full max-w-2xl mx-auto p-4">
         <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
         BITECH es tu solución completa para la creación de páginas web personalizadas. Nos especializamos en diseñar y desarrollar sitios web modernos, rápidos y totalmente optimizados para todos los dispositivos. Impulsa las ventas de tu negocio con una presencia en línea profesional y atractiva que conecte con tus clientes y potencie tu marca. Ya sea que necesites una tienda virtual, un portafolio o una plataforma empresarial, estamos aquí para transformar tu visión en realidad. ¡Mantente atento para el lanzamiento y lleva tu proyecto digital al siguiente nivel!"
         </p>
