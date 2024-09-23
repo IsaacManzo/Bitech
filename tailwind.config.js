@@ -2,14 +2,14 @@ const flowbite = require("flowbite-react/tailwind");
 
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-    'node_modules/flowbite-react/lib/esm/**/*.js',
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js",
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      monospace: ['"Fira Code"', "monospace"],
+    },
   },
-  plugins: [
-    require('flowbite/plugin'),
-    flowbite.plugin(),
-]}
+  plugins: [require("flowbite/plugin"), flowbite.plugin()],
+};
