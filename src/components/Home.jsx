@@ -1,7 +1,6 @@
 import React from "react";
-
 import { motion } from "framer-motion";
-
+import { FaInstagram } from "react-icons/fa"; // Importamos el ícono de Instagram
 import homeImage from "../assets/home.jpg";
 
 const Home = () => {
@@ -16,21 +15,30 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="mt-[50%] pl-[5%] pr-[5%] xl:mt-[15%] lg:mt-[15%] md:mt-[20%] sm:mt-[10%]">
-        <motion.p
+      <div className="mt-[30%] pl-[5%] pr-[5%] xl:mt-[0%] lg:mt-[0%] md:mt-[5%] sm:mt-[10%]">
+        <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1, y: 40 }}
           transition={{ duration: 3 }}
-          className="text-white font-monospace text-center text-[20px]"
+          className="text-white font-monospace text-center text-[80px]"
         >
-          Nos especializamos en diseñar y desarrollar sitios web modernos,
-          rápidos y totalmente optimizados para todos los dispositivos. Impulsa
-          las ventas de tu negocio con una presencia en línea profesional y
-          atractiva que conecte con tus clientes y potencie tu marca. Ya sea que
-          necesites una tienda virtual, un portafolio o una plataforma
-          empresarial, estamos aquí para transformar tu visión en realidad.
-          ¡Llevá tu proyecto digital al siguiente nivel!
-        </motion.p>
+          PROXIMAMENTE
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1, y: 20 }}
+          transition={{ duration: 2 }}
+          className="flex justify-center mt-4"
+        >
+          <a
+            href="https://www.instagram.com/bitech01/?hl=es-la" // Reemplaza con el link de tu cuenta de Instagram
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-[300px]"
+          >
+            <FaInstagram />
+          </a>
+        </motion.div>
       </div>
     </div>
   );
