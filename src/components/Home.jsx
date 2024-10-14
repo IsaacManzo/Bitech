@@ -16,14 +16,23 @@ const Home = () => {
         />
       </div>
       <div className="mt-[30%] pl-[5%] pr-[5%] xl:mt-[0%] lg:mt-[0%] md:mt-[5%] sm:mt-[10%]">
-        <motion.h1
+      <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1, y: 40 }}
           transition={{ duration: 3 }}
-          className="text-white font-monospace text-center text-[80px]"
+          className="text-center font-monospace text-[80px]"
         >
-          PROXIMAMENTE
+          <span className="text-custom-azul">PROXI</span>
+          <span className="text-custom-gris">MAMENTE</span>
         </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1, y: 20 }}
+          transition={{ duration: 2 }}
+          className="text-custom-gris text-center text-[24px] mt-4"
+        >
+          ¡Seguinos en nuestro Instagram!
+        </motion.p>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1, y: 20 }}
@@ -34,9 +43,9 @@ const Home = () => {
             href="https://www.instagram.com/bitech01/?hl=es-la" // Reemplaza con el link de tu cuenta de Instagram
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white text-[300px]"
+            className="text-custom-gris text-[300px]"
           >
-            <FaInstagram />
+            <FaInstagram className="text-custom-gris" />
           </a>
         </motion.div>
       </div>

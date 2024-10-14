@@ -7,8 +7,14 @@ module.exports = {
     flowbite.content(),
   ],
   theme: {
-    fontFamily: {
-      monospace: ['"Fira Code"', "monospace"],
+    extend: {
+      colors: {
+        'custom-azul': '#0E70C3',
+         'custom-gris': '#4C4C4C',
+      },
+      fontFamily: {
+        monospace: ['"Fira Code"', "monospace"],
+      },
     },
   },
   plugins: [require("flowbite/plugin"), flowbite.plugin()],
